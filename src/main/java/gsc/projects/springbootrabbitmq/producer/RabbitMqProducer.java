@@ -12,7 +12,7 @@ public class RabbitMqProducer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RabbitMqProducer.class);
 
-    @Value("${rabbitmq.exchange.name]")
+    @Value("${rabbitmq.exchange.name}")
     private String exchange;
 
 
