@@ -45,4 +45,6 @@ public class RabbitMqConfig {
     //ConnectionFactory
     //RabbitTemplate
     //RabbitAdmin
+
+
 }
