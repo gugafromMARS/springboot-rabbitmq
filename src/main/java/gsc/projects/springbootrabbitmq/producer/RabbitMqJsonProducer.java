@@ -13,7 +13,7 @@ public class RabbitMqJsonProducer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RabbitMqProducer.class);
 
-    @Value("${rabbitmq.queue.json.name}")
+    @Value("${rabbitmq.exchange.name}")
     public String exchange;
 
     @Value("${rabbitmq.routing.json.key}")
